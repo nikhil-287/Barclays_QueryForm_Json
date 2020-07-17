@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1000,
+    "Text": "Q1: What is your name?",
+    "InputType": "TextBox",
+    "InlineQ": "No"
+  },
+  {
+    "ID": 2000,
+    "Text": "Q2: DropDown Question",
+    "InputType": "DropDown",
+    "InlineQ": "No",
+    "DropDownLabelsList": [
+      "RANDOM",
+      "DROPDOWN1",
+      "DROPDOWN2",
+      "DROPDOWN3",
+      "DROPDOWN4"
+    ]
+  },
+  {
+    "ID": 3000,
+    "Text": "Q3: Radio Question",
+    "InputType": "radio",
+    "InlineQ": "Yes",
+    "RadioLabelsList": [
+      {
+        "Label": "Corporate",
+        "ID": [
+          3100,
+          3300
+        ]
+      },
+      {
+        "Label": "Investment",
+        "ID": [
+          3200
+        ]
+      },
+      {
+        "Label": "Product",
+        "ID": [
+          9999
+        ]
+      }
+    ],
+    "SubsetQ": [
+      {
+        "ID": 3100,
+        "Text": "Q3a: Corporate Question",
+        "InputType": "TextBox",
+        "InlineQ": "No"
+      },
+      {
+        "ID": 3200,
+        "Text": "Q3a: Investment Question",
+        "InputType": "TextBox",
+        "InlineQ": "No"
+      },
+      {
+        "ID": 3300,
+        "Text": "Q3b: Corporate Question",
+        "InputType": "TextBox",
+        "InlineQ": "No"
+      }
+    ]
+  },
+  {
+    "ID": 4000,
+    "Text": "Q4: What is your query?",
+    "InputType": "TextBox",
+    "InlineQ": "No"
+  }
+]
